@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-size: cover;
+    background: url("../imagens/bg.jpg") no-repeat top center;
+}
+
+a.login-button {
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    padding: 8px 16px;
+
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f9f9f9;
+
+    background: rgba(0, 0, 0, 0.6);
+
+    transition: 0.2ms ease;
+}
+
+a.login-button:hover {
+    color: black;
+
+    background: #f9f9f9;
+}
+
+img.logo {
+    margin-bottom: 20px;
+
+    max-width: 160px;
+}
+
+div.hero-content {
+    margin-top: -10px;
+    padding-left: 80px;
+}
+
+div.hero-content p {
+    margin-top: 16px;
+
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(192, 192, 192, 0.8);
+}
+
+h1 {
+    margin-bottom: 30px;
+
+    font-size: 43px;
+    line-height: 53px;
+    color: #f9f9f9;
+}
+
+div.precos-container {
+    display: flex;
+
+}
+
+div.preco {
+    width: 300px;
+    max-width: 100%;
+
+    color: rgba(192, 192, 192, 0.8)
+}
+
+div.preco:first-child {
+    display: grid;
+}
+
+div.preco:first-child a {
+    align-self: end;
+}
+
+div.preco span {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #f9f9f9;
+}
+
+div.preco p:first-child {
+    margin: 0;
+}
+
+div.preco a {
+    margin: 16px 0;
+}
+
+div.preco a {
+    display: block;
+    
+    border-radius: 4px;
+    padding: 16.5px 14px;
+
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #f9f9f9;
+
+    background: #0063e5;
+
+    transition: 0.2ms ease;
+}
+
+div.preco a:hover {
+    background: #0483ee;
+}
+
+div.preco + div.preco {
+    margin-left: 32px;
+}
+
+img.franquias-logo {
+    position: absolute;
+    bottom: 25px;
+
+    max-width: 600px;
+}
+
+div.hero-content p.creditos {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+
+    font-size: 17px;
+    color: white;
+}
+
+div.hero-content p.creditos a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+div.hero-content p.creditos a:hover {
+    text-decoration: underline;
+}
